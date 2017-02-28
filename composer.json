@@ -1,0 +1,22 @@
+{
+    "name": "outcompute/phpwatchdog",
+    "description": "Apply fine grained execution and file access policies in PHP and block malicious scripts from execution.",
+    "license": "MIT",
+    "keywords": ["aspect oriented programming", "aop", "php", "monitoring"],
+    "authors": [
+        {
+            "name": "outcompute",
+            "email": "gkumarrahul@gmail.com"
+        }
+    ],
+    "require": {
+    },
+    "require-dev": {
+        "phpunit/phpunit": "5.*.*"
+    },
+    "autoload": {
+        "psr-4": {
+            "OutCompute\\PHPWatchDog\\": "src"
+        }
+    }
+}
