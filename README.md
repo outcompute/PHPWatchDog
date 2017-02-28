@@ -98,15 +98,15 @@ $ docker pull outcompute/php-phpunit-aop
 ```
 **PHP5.6**:
 ```sh
- $ docker run -itv <path to PHPWatchDog directory>:/app aop-php56 phpunit
+ $ docker run -itv <absolute path to PHPWatchDog directory>:/app outcompute/php-phpunit-aop:php56 phpunit
 ```
 **PHP5.5**:
 ```sh
- $ docker run -itv <path to PHPWatchDog directory>:/app aop-php55 phpunit
+ $ docker run -itv <absolute path to PHPWatchDog directory>:/app outcompute/php-phpunit-aop:php55 phpunit
 ```
 **PHP5.4**:
 ```sh
- $ docker run -itv <path to PHPWatchDog directory>:/app aop-php54 phpunit
+ $ docker run -itv <absolute path to PHPWatchDog directory>:/app outcompute/php-phpunit-aop:php54 phpunit
 ```
 
 ### Use Cases
